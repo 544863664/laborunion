@@ -1,0 +1,104 @@
+.detail .wrap {
+	margin: 10px;
+}
+.detail .Bread .BreadcrumbNav {
+    font-size: 16px;
+    color: #000;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.detail .Bread .BreadcrumbNav a {
+	color: #000F52;
+}
+.detail .article h1 {
+	font-size: 20px;
+	text-align: center;
+	color: #000;
+	font-weight: normal;
+}
+.detail .article .pages-date {
+	text-align: center;
+	margin-top: 15px;
+	padding-bottom: 10px;
+	font-size: 14px;
+	color: #3B3B3B;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+.detail .article .pages-date .font {
+    margin-left: 10px;
+}
+.detail .article .pages_content {
+	margin-bottom: 10px;
+}
+.detail .article .pages_content .imgs {
+	width: 100%;
+	height: 55vw;
+	margin-bottom: 10px;
+}
+.detail .article .pages_content .videos {
+	text-align: center;
+	width: 100%;
+	height: 55vw;
+	margin-bottom: 10px;
+}
+.detail .article .pages_content .videos video {
+	height: 100%;
+}
+.detail .editor {
+    text-align: right;
+    font-size: 14px;
+    margin-right: 10px;
+	color: #666;
+	margin-bottom: 10px;
+}
+.detail .editor span a {
+	color: #000;
+}
+.detail .paragraph {
+	background-color: #fff;
+	color: #666;
+}
+.detail .paragraph .xg-list {
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.detail .paragraph .xg-list .pannel-title {
+	color: #00558E;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.detail .paragraph .xg-list .list01 {
+	list-style: none;
+}
+.detail .paragraph .xg-list .list01 li a {
+	color: #00558E;
+}
+.detail .apptg {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.detail .apptg a.liuYan {
+    display: block;
+    width: 100%;
+}
+.detail .apptg img {
+    width: 100%;
+    margin: 0;
+	vertical-align: middle;
+	border: 0;
+}
+.detail .apptg a.lfngb {
+    color: #fff;
+    position: absolute;
+    top: 2px;
+    width: 25px;
+    height: 19px;
+    text-align: center;
+    right: 0;
+}
+.detail .showliuyan {
+	display: none;
+}

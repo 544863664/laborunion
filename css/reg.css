@@ -1,0 +1,268 @@
+
+.reg .top {
+	width: 100%;
+	height: 55px;
+	background-color: #015293;
+	position: relative;
+	text-align: center;
+}
+.reg .top .top-icon {
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+	top: 8px;
+}
+.reg .top .top-icon > img {
+	height: 100%;
+}
+.reg .top .top-title {
+	position: absolute;
+	right: 15px;
+	color: #FFF;
+	font-size: 15px;
+}
+.reg .top .webback {
+	margin-left: 5px;
+	padding-left: 5px;
+    line-height: 55px;
+    color: #FFF;
+    font-size: 15px;
+}
+.reg .mt20 {
+    margin-top: 20px;
+}
+.reg .mt40 {
+    margin-top: 40px;
+}
+.reg .main-content .weui-cells_form {
+	padding: 0 20px;
+}
+.reg .main-content .weui-cell {
+    padding: 15px 0 10px;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+	border-bottom: 1px solid #d9d9d9;
+}
+.reg .main-content .weui-cell__bd {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.reg .main-content .weui-label {
+    width: 80px;
+    margin-top: 3px;
+    font-size: 14px;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.reg .main-content .weui-input {
+	width: 100%;
+	border: 0;
+	outline: 0;
+	-webkit-appearance: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	background-color: transparent;
+	font-size: 14px;
+	color: #000;
+	height: 14px;
+	line-height: 14px;
+}
+.reg .main-content .weui-vcode-btn {
+    width: 90px;
+    height: 30px;
+    padding: 0;
+    border: 1px solid #015293;
+    border-radius: 3px;
+    color: #015293;
+    line-height: 30px;
+    font-size: 14px;
+    background-color: transparent;
+    outline: none;
+}
+.reg .main-content .weui-btn {
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 18px;
+    line-height: 40px;
+	width: 100%;
+	border-width: 0;
+	outline: 0;
+	-webkit-appearance: none;
+	color: #fff;
+	border-radius: 5px;
+}
+.weui-btn_primary1 {
+    background-color: #c9c9c9;
+}
+.weui-btn_primary2 {
+	background-color: #1aad19;
+}
+.reg .main-content .weui-msg__desc {
+    font-size: 12px;
+}
+.reg .main-content .fl {
+	float: left;
+    margin-left: 20px;
+	margin-top: 20px;
+}
+.reg .main-content .msg_desc_a {
+    color: #015293;
+}
+.reg .main-content .fr {
+	float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.reg .bottom {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #015293;
+    text-align: center;
+    font-size: 16px;
+    line-height: 55px;
+    color: #76c1fb;
+}
+
+
+
+
+
+
+.reg .weui-popup__container, .reg .weui-popup__overlay {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.reg .popup-bottom {
+    height: 65%;
+}
+.reg .weui-popup__overlay {
+    background-color: rgba(0,0,0,.6);
+    opacity: 1;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+}
+.reg .weui-popup__modal {
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    border-radius: 0;
+    opacity: .6;
+    color: #3d4145;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    height: 100%;
+    background: #EFEFF4;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+    -webkit-transition-property: opacity,-webkit-transform;
+    transition-property: opacity,-webkit-transform;
+    transition-property: transform,opacity;
+    transition-property: transform,opacity,-webkit-transform;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.reg .weui-popup__container--visible .weui-popup__modal {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.reg .weui-popup__modal .toolbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+	line-height: 40px;
+	background: #f7f7f8;
+	color: #3d4145;
+	width: 100%;
+}
+.reg .toolbar, .reg .toolbar .title {
+    font-size: 15px;
+}
+.reg .toolbar .toolbar-inner {
+	height: 40px;
+	display: flex;
+	text-align: center;
+}
+.reg .toolbar .picker-button {
+    height: 35px;
+    line-height: 40px;
+    color: #015293;
+	position: absolute;
+	right: 0;
+	box-sizing: border-box;
+	
+	z-index: 1;
+	padding: 0 5px;
+}
+.reg .toolbar .title {
+	color: #3d4145;
+	width: 100%;
+    position: absolute;
+    display: block;
+    padding: 0;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    white-space: nowrap;
+}
+.reg .mt45 {
+	margin-top: 45px;
+}
+.reg .protocol-area p {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+.reg .agree-button {
+    width: 120px;
+    height: 40px;
+    margin: 20px auto;
+    background-color: #015293;
+    border: 0;
+    border-radius: 3px;
+    color: #FFF;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+}
+.reg .weui-popup__container--visible {
+	display: none;
+}

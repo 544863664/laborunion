@@ -1,0 +1,52 @@
+.pagelist .socialSecurity {
+	padding-top: 10px;
+	margin: 0 10px;
+}
+.pagelist .socialSecurity h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.pagelist .socialSecurity .socialSecurity_item {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #dadadf;
+    margin-bottom: 5px;
+}
+.pagelist .socialSecurity .socialSecurity_item h3 {
+    margin-bottom: 2px;
+    padding-left: 12px;
+    background: url(http://www.gov.cn/govweb/xhtml/2016gov/fuwu/20190709govNetworkServiceChannel/images/blueshuxian.jpg) 0 center no-repeat;
+    height: 32px;
+}
+.pagelist .socialSecurity .socialSecurity_item h3 a {
+    height: 32px;
+    font-size: 16px;
+	color: #333;
+    line-height: 32px;
+	display: -webkit-box;
+	overflow: hidden;
+	white-space: normal !important;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+.pagelist .socialSecurity .socialSecurity_item .item_text {
+    padding-left: 8px;
+    overflow: hidden;
+	font-size: 14px;
+	color: #888888;
+	display: -webkit-box;
+	overflow: hidden;
+	white-space: normal !important;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+}
+.pagelist .socialSecurity .socialSecurity_item .item_time {
+	padding-left: 8px;
+	font-size: 14px;
+	color: #888888;
+	margin-top: 5px;
+}

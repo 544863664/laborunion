@@ -1,0 +1,130 @@
+/* 底部 */
+.footer {
+    overflow: hidden;
+	margin-top: 20px;
+}
+.footer .allMenu-left {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 5px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 20px;
+    vertical-align: middle;
+	background: #005393;
+}
+.footer .allMenu-left ul {
+    padding: 0;
+    margin: 0;
+	height: 20px;
+}
+.footer .allMenu-left ul li {
+    display: inline-block;
+	min-width: 60px;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    text-align: center;
+    list-style-type: none;
+    padding: 0 0.4375rem;
+    position: relative;
+	border-right: 1px solid #FFFFFF;
+}
+.footer .allMenu-left ul li:last-of-type {
+	border-right-color: rgba(0,0,0,0);
+}
+.footer .allMenu-left ul li a {
+    font-size: 0.9375rem;
+    color: #fff!important;
+    text-decoration: none;
+}
+.footer .allMenu-left::-webkit-scrollbar {
+    display: none;
+}
+.footer .navlist {
+	padding: 2px 0 5px;
+	border-bottom: 1px solid #e1e1e1;
+	margin-bottom: 10px;
+}
+.footer .navlist ul {
+    padding: 0;
+    margin: 0;
+	height: 20px;
+	text-align: center;
+}
+.footer .navlist ul li {
+    display: inline-block;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+	border-right: 1px solid #FFFFFF;
+	font-size: 14px;
+}
+.footer .navlist ul li a {
+	color: #21518e;
+}
+.footer .qrcode {
+	margin: 0 10px 10px;
+	display: flex;
+	justify-content: center;
+}
+.footer .qrcode div {
+    width: 105px;
+	background: #f5f5f5;
+	font-size: 12px;
+	text-align: center;
+	height: 20px;
+	padding-top: 28vw;
+	margin: 0 10px;
+}
+
+
+
+
+.footer .box {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.footer .box .left {
+    display: inline-block;
+    width: 32px;
+    vertical-align: middle;
+}
+.footer .box .left > img {
+	width: 32px;
+	height: 32px;
+}
+.footer .box .right {
+	/* width: calc(100% - 32px); */
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+.footer .box .right p {
+    margin: 0;
+    line-height: 16px;
+    font-size: 10px;
+    color: #000;
+}
+
+
+.returnTop {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    right: 0.75rem;
+    bottom: 10%;
+	z-index: 999;
+    background: rgba(0,0,0,0.5) url(../images/icon/newgotop.png) 15px 5px / 50% 50% no-repeat;
+    text-align: center;
+    line-height: 70px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+}
+#btn{
+	display:none;
+}
